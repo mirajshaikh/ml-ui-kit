@@ -75,6 +75,19 @@
           "type": "registry:component"
         }
       ]
+    },
+    {
+      "name": "calendar-block",
+      "type": "registry:component",
+      "title": "Calendar Block",
+      "description": "A simple wrapper around the calendar widget.",
+      "registryDependencies": ["calendar"],
+      "files": [
+        {
+          "path": "registry/new-york/blocks/calendar/calendarBlock.tsx",
+          "type": "registry:component"
+        }
+      ]
     }
   ]
 }
