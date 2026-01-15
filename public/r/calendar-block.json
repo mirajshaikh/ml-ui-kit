@@ -3,13 +3,11 @@
   "name": "calendar-block",
   "title": "Calendar Block",
   "description": "A simple wrapper around the calendar widget.",
-  "registryDependencies": [
-    "calendar"
-  ],
+  "registryDependencies": ["calendar"],
   "files": [
     {
-      "path": "registry/new-york/blocks/calendar/calendarBlock.tsx",
-      "content": "import React from \"react\";\nimport { Calendar } from \"@/registry/new-york/ui/calendar\";\n\nfunction CalendarBlock() {\n  return (\n    <div>\n      <Calendar mode=\"single\" className=\"rounded-lg border\" />\n    </div>\n  );\n}\n\nexport default CalendarBlock;\n",
+      "path": "registry/metis/blocks/calendar/calendarBlock.tsx",
+      "content": "import React from \"react\";\nimport { Calendar } from \"@/registry/metis/ui/calendar\";\n\nfunction CalendarBlock() {\n  return (\n    <div>\n      <Calendar mode=\"single\" className=\"rounded-lg border\" />\n    </div>\n  );\n}\n\nexport default CalendarBlock;\n",
       "type": "registry:component"
     }
   ],

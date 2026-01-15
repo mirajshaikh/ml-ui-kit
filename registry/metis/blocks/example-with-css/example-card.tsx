@@ -1,4 +1,4 @@
-import "./example-card.css"
+import "./example-card.css";
 
 export function ExampleCard() {
   return (
@@ -8,6 +8,7 @@ export function ExampleCard() {
         <p className="login-subtitle">
           Please enter your credentials to continue
         </p>
+
         <form className="login-form">
           <div className="form-group">
             <label htmlFor="field-email">Email</label>
@@ -40,5 +41,5 @@ export function ExampleCard() {
         </form>
       </div>
     </div>
-  )
+  );
 }

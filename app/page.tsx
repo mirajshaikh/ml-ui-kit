@@ -1,9 +1,9 @@
 import * as React from "react";
-import { HelloWorld } from "@/registry/new-york/blocks/hello-world/hello-world";
-import { ExampleForm } from "@/registry/new-york/blocks/example-form/example-form";
-import PokemonPage from "@/registry/new-york/blocks/complex-component/page";
-import { ExampleCard } from "@/registry/new-york/blocks/example-with-css/example-card";
-import CalendarBlock from "@/registry/new-york/blocks/calendar/calendarBlock";
+import { HelloWorld } from "@/registry/metis/blocks/hello-world/hello-world";
+import { ExampleForm } from "@/registry/metis/blocks/example-form/example-form";
+import PokemonPage from "@/registry/metis/blocks/complex-component/page";
+import { ExampleCard } from "@/registry/metis/blocks/example-with-css/example-card";
+import CalendarBlock from "@/registry/metis/blocks/calendar/calendarBlock";
 // This page displays items from the custom registry.
 // You are free to implement this with your own design as needed.
 

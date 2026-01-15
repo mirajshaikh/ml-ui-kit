@@ -1,5 +1,5 @@
 import React from "react";
-import { Calendar } from "@/registry/new-york/ui/calendar";
+import { Calendar } from "@/registry/metis/ui/calendar";
 
 function CalendarBlock() {
   return (
