@@ -3,7 +3,9 @@
   "name": "calendar-block",
   "title": "Calendar Block",
   "description": "A simple wrapper around the calendar widget.",
-  "registryDependencies": ["calendar"],
+  "registryDependencies": [
+    "calendar"
+  ],
   "files": [
     {
       "path": "registry/metis/blocks/calendar/calendarBlock.tsx",

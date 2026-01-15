@@ -88,6 +88,32 @@
           "type": "registry:component"
         }
       ]
+    },
+    {
+      "name": "main-layout",
+      "type": "registry:component",
+      "title": "Main Layout",
+      "description": "A dashboard shell with a collapsible sidebar and navigation menu.",
+      "dependencies": ["lucide-react"],
+      "registryDependencies": ["sidebar", "navigation-menu", "header"],
+      "files": [
+        {
+          "path": "registry/metis/Layout/MainLayout.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/metis/blocks/sidebar/sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/metis/ui/header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "hooks/use-mobile.ts",
+          "type": "registry:hook"
+        }
+      ]
     }
   ]
 }
